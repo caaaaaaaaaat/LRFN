@@ -1,12 +1,12 @@
-#Large Receiving Field Network for Time Series Classification
+Large Receiving Field Network for Time Series Classification
 This is the project of paper 'Large Receiving Field Network for Time Series Classification'.
 ![FFRN](LRFN.png "The framework of our proposed method")
 
-##Prerequisite
+Prerequisite
 
 Tested on Windows 10, with Python 3.8, PyTorch 1.9.0, CUDA 11.1, and 1x NVIDIA RTX 3090.
 
-##Data Transformation
+Data Transformation
 
 The original data used in this project comes from the UCR archive, which contains the 4 univariate time series datasets. This project transforms these data into MSRP images for better discrimination.
 
@@ -21,7 +21,7 @@ The original data used in this project comes from the UCR archive, which contain
 * Transform to TRP (Threshhold RP) images.
 >Click on TRP_Transform.py and run it. Or python TRP_Transform.py
 
-##Code
+Code
 
 The code is divided as follows:
 
@@ -48,5 +48,5 @@ Or:
 
 *This code is partially borrowed from Ye Zhang, thanks for Zhang's help.
 
-##Referrence
+Referrence
 Zhang Y, Hou Y, OuYang K, et al. Multi-scale signed recurrence plot based time series classification using inception architectural networks[J]. Pattern Recognition, 2022, 123: 108385.
